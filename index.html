@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Guessing Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>I'll Guess Your Age</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <div id="answers"></div>
+        </div>
+    </div>
+
+    <!-- Loader Modal -->
+    <div id="loader-modal" class="modal">
+
+        <div class="modal-content">
+            <p>Guessing your age...</p>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Result Modal -->
+    <div id="result-modal" class="modal">
+        <div class="modal-content">
+            <p>Your predicted age is: <span id="result"></span></p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
