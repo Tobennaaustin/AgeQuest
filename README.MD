@@ -9,7 +9,7 @@ AgeQuest is a web application that predicts a user's age based on their answers 
 - [Setup](#setup)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [License](#license)
+- [Python Version](#python)
 
 ## Features
 
@@ -43,9 +43,11 @@ To set up the project locally, follow these steps:
 
 ## File structure
 ``` bash
-     AgeQuest/
+ AgeQuest/
 │
 ├── index.html        # Main HTML file
 ├── styles.css        # CSS file for styling
 └── script.js         # JavaScript file for quiz functionality
-
+```
+## Python version
+AgeQuest is a terminal-based quiz application that estimates your age based on your answers to a series of questions related to your life experiences. The questions cover various periods and technologies that you may have encountered during your lifetime.
